@@ -1,0 +1,88 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #343434;
+  color: white;
+  position: fixed;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fef5ea;
+  margin: 0;
+  transition: color 0.3s;
+}
+
+.navbar h2:hover {
+  color: #ffebcd;
+}
+
+.navbar-ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navbar-ul a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.navbar-ul a:hover {
+  color: #ffebcd;
+}
+
+.navbar-ul li {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.navbar-ul li:hover {
+  background-color: #444;
+  color: #ffebcd;
+}
+
+.card-count {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+.nav-btn {
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 1rem;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #ff4d4d;
+  transform: scale(1.05);
+}
+
+.nav-btn:focus {
+  outline: none;
+}
